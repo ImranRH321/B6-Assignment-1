@@ -9,7 +9,9 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
-/* Header > Banner style  */
+/* ==================== */
+/* Header style  */
+/* ==================== */
 header {
   height: 808px;
   width: 100%;
@@ -116,8 +118,8 @@ my_plan_container_content
 #my_plan {
   margin-top: 129px;
   text-align: center;
-
-  margin-bottom: 124px;
+  margin-bottom: 130px;
+  /* margin-bottom: 124px; */
 }
 .my_plan_title {
   font-style: normal;
@@ -153,6 +155,7 @@ my_plan_container_content
 /* =============== */
 
 .mindset {
+  
   background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
     url("../images/watch.png");
   border-radius: 8px;
@@ -177,10 +180,51 @@ my_plan_container_content
   color: #ffffff;
   margin-bottom: 24px;
 }
+/* ========================= */
+ /* Extra bunus  */
+/* ========================= */
+.planing_time{
+    margin-top: 50px;
+    display: flex;  
+    padding: 30px; 
+}
+
+.time{
+    margin-left: 50px;
+    width: 50%;
+}
+
+.time > img{
+    width: 80%;
+}
+
+/* ================ */
+/* services  */
+/* ================= */
+.services{
+    background-image: url("../images/newPic/codeTo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.services > h2{
+    background-color: #16d887;
+    padding: 0 10px;
+}
+.services > h1{
+    background-color: #ce2a76;
+    padding: 0 10px;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
 
 /* Footer  */
 footer {
-  margin-top: 143px;
+  /* margin-top: 143px; */
   height: 500px;
   background: #151414;
   display: flex;
