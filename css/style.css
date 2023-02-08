@@ -1,3 +1,4 @@
+/* Google font  */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 
 * {
@@ -8,54 +9,57 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
-/* Banner style  */
+/* Header > Banner style  */
 header {
-  border: 2px solid rebeccapurple;
   height: 808px;
-  background-image: url("../images/banner/banner3.png");
+  width: 100%;
+  background-image: url("../images/banner/banner2.png");
   background-repeat: no-repeat;
-}
-.header_info {
-  text-align: right;
-  width: 525px;
-  background: rgb(73, 153, 51);
-  padding: 10px;
-}
-.header_content {
-  text-align: right;
-  width: 525px;
-  margin: auto;
-  background: rebeccapurple;
+  position: relative;
 }
 
+.header_content {
+  position: absolute;
+  width: 600px;
+  right: 56px;
+  top: 170px;
+  padding: 20px;
+}
+
+/* header_content */
+.header_content {
+  margin: 0 10px;
+}
 .header_content > h2 {
-  font-size: 65px;
+  font-style: normal;
   font-weight: 700;
+  font-size: 65px;
   line-height: 76px;
-  letter-spacing: 0em;
   text-align: right;
-  color: #ffffff;
+  color: #151414;
 }
 .header_content > p {
-  width: 494px;
-  /* height: 78px; */
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   text-align: right;
-  color: #ffffff;
+  color: #2e2b2b;
+  margin-top: 24px;
 }
-
+.btn_father {
+  text-align: right;
+}
 .btn_orange {
+  margin-top: 32px;
   width: 160px;
   height: 64px;
-  background: #ffffff;
+  background: #f15b22;
   border-radius: 5px;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  color: #005fac;
+  color: white;
   border: none;
 }
 
@@ -65,6 +69,7 @@ failures_year
 ===================== */
 
 .failures_year {
+  margin-top: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,9 +116,10 @@ my_plan_container_content
 #my_plan {
   margin-top: 129px;
   text-align: center;
+
+  margin-bottom: 124px;
 }
 .my_plan_title {
-  /* text-align: center; */
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -147,12 +153,14 @@ my_plan_container_content
 /* =============== */
 
 .mindset {
-  margin-top: 130px;
   background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
     url("../images/watch.png");
   border-radius: 8px;
-  background-repeat: no-repeat, no-repeat;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
   height: 300px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .mindset > div {
