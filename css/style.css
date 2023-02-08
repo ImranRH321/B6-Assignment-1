@@ -1,20 +1,106 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+/* Banner style  */
+header {
+  border: 2px solid rebeccapurple;
+  height: 808px;
+  background-image: url("../images/banner/banner3.png");
+  background-repeat: no-repeat;
+}
+.header_info {
+  text-align: right;
+  width: 525px;
+  background: rgb(73, 153, 51);
+  padding: 10px;
+}
+.header_content {
+  text-align: right;
+  width: 525px;
+  margin: auto;
+  background: rebeccapurple;
 }
 
-header{
-    display: flex;
-    justify-content: space-around;
-    border: 2px solid rebeccapurple;
-    height: 808px;
-    width: 100%;
-    background-image: url("../images/banner/banner3.png");
-    background-repeat: no-repeat;
-    
+.header_content > h2 {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #ffffff;
+}
+.header_content > p {
+  width: 494px;
+  /* height: 78px; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+  color: #ffffff;
 }
 
-.btn_orange{
-    
+.btn_orange {
+  width: 160px;
+  height: 64px;
+  background: #ffffff;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #005fac;
+  border: none;
+}
+
+/*
+===================== 
+failures_year
+===================== */
+
+.failures_year {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 87px;
+}
+
+.failures_year_content {
+  margin-top: 200px;
+  width: 416px;
+  height: 400px;
+}
+.failures_year_content > h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+.failures_year_content > .singlePara {
+  width: 416px;
+  height: 104px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 16px;
+}
+/* Icon  */
+i {
+  padding-right: 10px;
+  color: #16d887;
+}
+.failures_year_content > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }
